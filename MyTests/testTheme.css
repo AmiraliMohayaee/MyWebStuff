@@ -1,0 +1,21 @@
+@import ".././node_modules/nes.css/css/nes.min.css";
+
+
+:root {
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+  }
+
+  * {
+    color: var(--fontColor);
+    font-family: PressStart2P-Regular;
+  }
+
+  @font-face {
+    font-family: 'PressStart';
+    src: url('PressStart2P-Regular.ttf'), format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
